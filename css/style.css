@@ -1,0 +1,209 @@
+/* @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap'); */
+body {
+    background-color: #E5E5E5;
+    font-family: 'Montserrat', sans-serif;
+}
+.main-container {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1200px;
+    background: #fff;
+    margin: 40px auto;
+}
+li {
+    background-color: #fff;
+    color: #595959;
+    font-size: 14px;
+    line-height: 24px;
+}
+ul {
+    padding: 0 0 0 17px;
+}
+
+
+/* main content section */
+.main-content-section{
+    width: 830px;
+    margin: 102px auto 102px 88px;
+}
+/*  */
+.main-content-section h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 55px;
+    color: #000000;
+    margin-top: 19px;
+    margin-bottom: 24px;
+}
+.main-content-section h2 {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.main-content-section h3 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000000;
+}
+.main-content-section h4{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    margin: 0;
+}
+.main-content-section h4 span{
+    color: #FB6D3A;
+}
+.main-content-section p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #A8A8A8;
+    margin-top: 11px;
+    margin-bottom: 8px;
+}
+.main-content-section p span {
+    color: #595959;
+    font-weight: bold;
+}
+.my-content-section ul {
+    padding: 0 0 0 17px;
+    margin: 0px 0px;
+}
+/* aboute me section */
+.aboute-me-profession {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000;
+}
+.aboute-me-section p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    width: 400px;
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+/* my project section */
+.my-projects-section ol {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    padding: 0 0 0 17px;
+    margin-bottom: 51px;
+}
+.my-projects-section ol li::marker {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+    margin-right: 13px;
+    margin-left: 0px;
+}
+.my-projects-section ol li a {
+    margin-left: 13px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 28px;
+    color: #595959;
+}
+.project-item-black {
+    color: #000;
+    font-weight: bold;
+}
+/* my work experience section */
+.my-work-experience-section {
+    margin-bottom: 51px;
+}
+/* my education section */
+.my-education-section h5{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    margin-bottom: 12px;
+    margin-top: 11px;
+}
+/* sidebar section */
+.sidebar-section{
+    background: #1E2939;
+    width: 370px;
+    padding: 40px 0;    
+}
+.contacts-section,
+.tech-skills-section,
+.soft-skills-section{
+    margin: 50px 0 0 40px;
+}
+.sidebar-title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+/* contacts section */
+.contacts-section-type {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    color: #fff;
+    margin-right: 7px;
+}
+.contacts-section-link {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #fff;
+    opacity: 0.5;
+}
+/* tech skills section */
+.tech-skills-list {
+    padding: 0 0 0 17px;
+    
+}
+.tech-skills-list li::marker{
+    color: #FB6D3A;
+}
+.tech-skills-list li{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #fff;
+    background: none;
+}
+/* soft skills section */
+.soft-skills-list {
+    padding: 0 0 0 17px;
+    
+}
+.soft-skills-list li::marker{
+    color: #FB6D3A;
+}
+.soft-skills-list li{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #fff;
+    background: none;
+}
